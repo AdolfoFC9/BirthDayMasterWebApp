@@ -3,26 +3,20 @@ import NavBar from '../components/NavBar.jsx';
 import { Button, Row, Col, Form, FormGroup, Label, Input } from 'reactstrap'
 import {InsertUpdatePeople} from '../state/reducers/peopleReducer.js';
 import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate } from 'react-router'
+import moment from 'moment';
 
 
-function AgregarPersona() {
-    const navigate = useNavigate();
-    const { request } = useSelector((state) => state.people);
+function ActualizarPersona() {
+    const { request, selectedPerson } = useSelector((state) => state.people);
     const [primerNombreValido, setPrimerNombreValido] = useState(true);
     const [primerApelldioValido, setPrimeApellidoValido] = useState(true);
     const [fechaNacimientoValido, setFechaNacimientoValido] = useState(true);
 
-    const [primerNombre, setPrimerNombre] = useState("");
-    const [primerApellido, setPrimerApellido] = useState("");
-    const [fechaNacimiento, setFechaNacimiento] = useState("");
+    const [primerNombre, setPrimerNombre] = useState(selectedPerson.primernombre);
+    const [primerApellido, setPrimerApellido] = useState(selectedPerson.primerapellido);
+    const [fechaNacimiento, setFechaNacimiento] = useState(moment(selectedPerson.fechadenacimiento).format("YYYY-MM-DD"));
     const dispatch = useDispatch();
 
-    useEffect(() => {
-        if(request == 200){
-            navigate("/Personas");
-        }
-    })
     
     function processInsert() {
         if (!validateFields()) {
@@ -31,6 +25,7 @@ function AgregarPersona() {
         else {
             dispatch(InsertUpdatePeople({
                 person:{
+                    identificador: selectedPerson.identificador,
                     primernombre: primerNombre,
                     primerapellido: primerApellido,
                     fechadenacimiento: fechaNacimiento
@@ -71,10 +66,10 @@ function AgregarPersona() {
     return (
         <>
             <NavBar />
-            {request == -1 || request == 200 ? request == 200 ? <Label>Se inserto el registro exitosamente</Label> : <></> : <Label>No se pudo insertar el registro.  Error {request}</Label>}
+            {request == -1 || request == 200 ? request == 200 ? <Label>Se actualizo el registro exitosamente</Label> : <></> : <Label>No se pudo actualizar el registro.  Error {request}</Label>}
             <Row class="gjs-grid-row">
                 <Col class="gjs-grid-column">
-                    <h1 id="irjua" class="gjs-heading">Soy Agregar Personas
+                    <h1 id="irjua" class="gjs-heading">Soy Actualizar Personas
                     </h1>
                     <p id="itndw" class="text-main-content">Birthday Master 🎉 es la app perfecta para nunca olvidar un cumpleaños importante. Te permite ver fácilmente quiénes celebran su día especial cada mes, organizar tus contactos y recibir recordatorios para estar siempre listo para felicitar y celebrar. ¡Haz de cada cumpleaños un momento inolvidable! 🎂✨<br />
                     </p>
@@ -137,4 +132,4 @@ function AgregarPersona() {
     );
 };
 
-export default AgregarPersona;
+export default ActualizarPersona;
