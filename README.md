@@ -25,29 +25,23 @@ Currently, two official plugins are available:
 
 ## Backend Routes
 
-### People Routes
-- **GET /people**: Retrieves all persons from the database.
-- **GET /people/:month**: Retrieves persons whose birthdays fall in the specified month.
-- **POST /person**: Adds a new person to the database.
-- **PUT /person/:id**: Updates an existing person's information.
-- **DELETE /person/:id**: Deletes a person from the database.
+### Requirements
+[Birthdaymaster webserver](https://github.com/AdolfoFC9/BirthdayMasterWebServer)
 
 ---
 
 ## Tools and Technologies
 
 ### Languages and Frameworks
-- **Node.js**: Runtime environment for building the server.
-- **Express.js**: Framework for managing routes, middleware, and server functionality.
-
-### Database
-- **PostgreSQL**: Relational database management system used for storing and organizing data.
+- **JavaScript**: programming language used for building interactive web applications on both the client and server sides.
+- **ReactJS**: ReactJS is a JavaScript library for building user interfaces, allowing developers to create reusable UI components and efficiently manage the state and rendering of web applications.
 
 ### Libraries and Middlewares
-- **pg**: Library for connecting and executing queries in PostgreSQL.
-- **Cors**: Middleware to handle cross-origin requests between client and server.
-- **Morgan**: Middleware for logging HTTP requests.
-- **Moment.js**: Library for handling and formatting dates.
+- **Redux Toolkit**: library that simplifies state management in JavaScript applications by providing tools for efficient Redux configuration, including prebuilt reducers, middleware, and streamlined syntax.
+- **Redux Saga**: middleware library for managing complex side effects in Redux applications using generator functions to handle asynchronous actions like data fetching and API calls.
+- **Axios**: JavaScript library for making HTTP requests, providing a simple and efficient API for interacting with RESTful APIs and handling responses.
+- **Reactstrap**: library of React components that makes it easy to use Bootstrap's responsive design system and styling framework in React applications.
+- **React Router**: for managing navigation and routing in React applications, enabling dynamic rendering of components based on the URL and creating single-page applications with seamless transitions. 
 
 ---
 
@@ -55,7 +49,7 @@ Currently, two official plugins are available:
 
 - Add authentication and authorization mechanisms.
 - Implement pagination for handling large datasets.
-- Improve error management for more informative responses.
+- Improve visualization of errors.
 - Add dropdown lists to enhance the user experience.
 - Standardize visual styles across all pages (consistent colors, fonts, and alignment).
 
