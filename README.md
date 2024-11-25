@@ -7,7 +7,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# Birthday Master - Backend
+# Birthday Master - Frontend
 
 ## Description
 
@@ -58,3 +58,5 @@ Currently, two official plugins are available:
 - Improve error management for more informative responses.
 - Add dropdown lists to enhance the user experience.
 - Standardize visual styles across all pages (consistent colors, fonts, and alignment).
+
+---
