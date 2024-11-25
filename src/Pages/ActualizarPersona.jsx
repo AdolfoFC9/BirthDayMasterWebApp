@@ -69,9 +69,9 @@ function ActualizarPersona() {
             {request == -1 || request == 200 ? request == 200 ? <Label>Se actualizo el registro exitosamente</Label> : <></> : <Label>No se pudo actualizar el registro.  Error {request}</Label>}
             <Row class="gjs-grid-row">
                 <Col class="gjs-grid-column">
-                    <h1 id="irjua" class="gjs-heading">Soy Actualizar Personas
+                    <h1 id="irjua" class="gjs-heading">Actualizar Personas
                     </h1>
-                    <p id="itndw" class="text-main-content">Birthday Master 🎉 es la app perfecta para nunca olvidar un cumpleaños importante. Te permite ver fácilmente quiénes celebran su día especial cada mes, organizar tus contactos y recibir recordatorios para estar siempre listo para felicitar y celebrar. ¡Haz de cada cumpleaños un momento inolvidable! 🎂✨<br />
+                    <p id="irjua2" class="normal-text">Aca podrá actualizar la informacion del cumpleañero seleccionado.<br />
                     </p>
                     <Form>
                         <FormGroup>

@@ -142,12 +142,20 @@ body {
 }
 
 #irjua2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+#acfc1 {
     font-size: 1rem;
     text-align: center;
     padding-top: 60px;
     font-style: italic;
-
+    
 }
+
 
 #itndw {
     padding: 15px;

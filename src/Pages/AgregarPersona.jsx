@@ -76,7 +76,7 @@ function AgregarPersona() {
                 <Col class="gjs-grid-column">
                     <h1 id="irjua" class="gjs-heading">Agregar Personas
                     </h1>
-                    <p id="irjua2" class="normal-text">✨🎂Aquí podrá ingresar nuevos cumpleañeros al catalogo para futuras referencias. 🎂✨<br />
+                    <p id="irjua2" class="normal-text">✨🎂Aquí podrá ingresar nuevos cumpleañeros al catalogo para futuras referencias. 🎂<br />
                     </p>
                     <Form>
                         <FormGroup>

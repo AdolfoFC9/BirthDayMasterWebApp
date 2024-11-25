@@ -24,7 +24,7 @@ function ListaPersonas() {
         return (
             <tr>
                 <td>
-                    {person.primernombre}
+                    {person.Myprimernombre}
                 </td>
                 <td>
                     {person.primerapellido}
