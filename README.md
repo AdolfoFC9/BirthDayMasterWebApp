@@ -43,6 +43,24 @@ Currently, two official plugins are available:
 - **Reactstrap:** library of React components that makes it easy to use Bootstrap's responsive design system and styling framework in React applications.
 - **React Router:** for managing navigation and routing in React applications, enabling dynamic rendering of components based on the URL and creating single-page applications with seamless transitions. 
 
+## Setup Instructions
+
+### Prerequisites
+- **Node.js** (version 14+ recommended)
+- **PostgreSQL** (version 13+ recommended)
+
+### Installation Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AdolfoFC9/BirthDayMasterWebApp.git
+   cd birthdaymasterweapp
+
+### Install dependencies:
+npm install
+
+### Start the web App
+npm run dev
+
 ---
 
 ## Future Enhancements
