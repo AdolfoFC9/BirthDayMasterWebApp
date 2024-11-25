@@ -75,13 +75,13 @@ function ListaPersonas() {
         <>
             <NavBar />
             <Row class="normal-text page-title">
-                <h2>Listado de Personas
-                </h2>
+            <h1 id="irjua" class="gjs-heading">Lista de Personas
+            </h1>
             </Row>
             <Row>
                 <Col>
-                    <p class="normal-text">Birthday Master 🎉 es la app perfecta para nunca olvidar un cumpleaños importante. Te permite ver fácilmente quiénes celebran su día especial cada mes, organizar tus contactos y recibir recordatorios para estar siempre listo para felicitar y celebrar. ¡Haz de cada cumpleaños un momento inolvidable! 🎂✨<br />
-                    </p>
+                <p id="irjua2" class="normal-text">✨🎂Aquí podrá encontrar el catálogo completo de los cumpleañeros registrados. Además, tendrá la opción de modificar o eliminar un registro específico. 🎂✨<br />
+                </p>
                     <Table striped class="fill-horizontal">
                         <thead>
                             <tr>

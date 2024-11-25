@@ -85,15 +85,15 @@ function ListaCumpleaneros() {
         <>
             <NavBar />
             <Row class="normal-text page-title">
-                <h2>Soy Lista Cumpleaneros
-                </h2>
+            <h1 id="irjua" class="gjs-heading">Lista de Cumpleañeros
+            </h1>
             </Row>
 
             <Row>
 
                 <Col>
 
-                    <p class="normal-text">Birthday Master 🎉 es la app perfecta para nunca olvidar un cumpleaños importante. Te permite ver fácilmente quiénes celebran su día especial cada mes, organizar tus contactos y recibir recordatorios para estar siempre listo para felicitar y celebrar. ¡Haz de cada cumpleaños un momento inolvidable! 🎂✨<br />
+                    <p id="irjua2" class="normal-text">Aquí podrá visualizar la lista de cumpleañeros según el mes que seleccione. Por defecto, se mostrarán los cumpleañeros del mes actual.🎂✨<br />
                     </p>
                     {renderDropdown()}
 

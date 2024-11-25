@@ -74,9 +74,9 @@ function AgregarPersona() {
             {request == -1 || request == 200 ? request == 200 ? <Label>Se inserto el registro exitosamente</Label> : <></> : <Label>No se pudo insertar el registro.  Error {request}</Label>}
             <Row class="gjs-grid-row">
                 <Col class="gjs-grid-column">
-                    <h1 id="irjua" class="gjs-heading">Soy Agregar Personas
+                    <h1 id="irjua" class="gjs-heading">Agregar Personas
                     </h1>
-                    <p id="itndw" class="text-main-content">Birthday Master 🎉 es la app perfecta para nunca olvidar un cumpleaños importante. Te permite ver fácilmente quiénes celebran su día especial cada mes, organizar tus contactos y recibir recordatorios para estar siempre listo para felicitar y celebrar. ¡Haz de cada cumpleaños un momento inolvidable! 🎂✨<br />
+                    <p id="irjua2" class="normal-text">✨🎂Aquí podrá ingresar nuevos cumpleañeros al catalogo para futuras referencias. 🎂✨<br />
                     </p>
                     <Form>
                         <FormGroup>
