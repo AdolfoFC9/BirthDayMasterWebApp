@@ -47,7 +47,6 @@ Currently, two official plugins are available:
 
 ### Prerequisites
 - **Node.js** (version 14+ recommended)
-- **PostgreSQL** (version 13+ recommended)
 
 ### Installation Steps
 1. Clone the repository:
